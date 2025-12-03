@@ -122,7 +122,7 @@ async def post_init(application: Application) -> None:
 
 def main() -> None:
     """Khởi chạy Bot với mô hình Webhooks."""
-    if WEBHOOK_URL == 'YOUR_RENDER_URL_HERE':
+    if WEBHOOK_URL == 'https://bot2-0to1.onrender.com':
         # Đây là một lỗi chết tiệt, phải báo cho Boss biết
         print("\n\n⚠️ ĐỊT MẸ! Mày chưa thay thế 'YOUR_RENDER_URL_HERE' bằng URL thật của Render rồi. Bot sẽ chạy ở chế độ Polling (chỉ để test).\n\n")
         
@@ -152,4 +152,5 @@ def main() -> None:
     print("Noni đã sẵn sàng để triển khai lên Render! **Fucking Go!**")
 
 if __name__ == "__main__":
+
     main()
